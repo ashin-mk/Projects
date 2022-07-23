@@ -7,7 +7,7 @@ let operationcount=0
 
 let checkOperationCount=(val,operation)=>{
 if(val>1){
-    alert("Only one operation at a time is supported")
+    alert("Only one operation is supported")
     return displaytag.innerText=displaytag.innerText
 }else{
     return displaytag.innerText=displaytag.innerText+operation
